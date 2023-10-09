@@ -1,0 +1,47 @@
+PODS:
+  - Flutter (1.0.0)
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+    - google_maps_flutter_ios
+    - webview_flutter_wkwebview
+  - google_maps_flutter_ios (0.0.1):
+    - Flutter
+    - GoogleMaps (< 8.0)
+  - GoogleMaps (7.3.0):
+    - GoogleMaps/Maps (= 7.3.0)
+  - GoogleMaps/Base (7.3.0)
+  - GoogleMaps/Maps (7.3.0):
+    - GoogleMaps/Base
+  - webview_flutter_wkwebview (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `../flutter_module/.ios/Flutter`)
+  - FlutterPluginRegistrant (from `../flutter_module/.ios/Flutter/FlutterPluginRegistrant`)
+  - google_maps_flutter_ios (from `../flutter_module/.ios/.symlinks/plugins/google_maps_flutter_ios/ios`)
+  - webview_flutter_wkwebview (from `../flutter_module/.ios/.symlinks/plugins/webview_flutter_wkwebview/ios`)
+
+SPEC REPOS:
+  trunk:
+    - GoogleMaps
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: "../flutter_module/.ios/Flutter"
+  FlutterPluginRegistrant:
+    :path: "../flutter_module/.ios/Flutter/FlutterPluginRegistrant"
+  google_maps_flutter_ios:
+    :path: "../flutter_module/.ios/.symlinks/plugins/google_maps_flutter_ios/ios"
+  webview_flutter_wkwebview:
+    :path: "../flutter_module/.ios/.symlinks/plugins/webview_flutter_wkwebview/ios"
+
+SPEC CHECKSUMS:
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  FlutterPluginRegistrant: 7ed3ddab9d362f7c075f03356b2cd3affea22f0f
+  google_maps_flutter_ios: abdac20d6ce8931f6ebc5f46616df241bfaa2cfd
+  GoogleMaps: a146f275ee429d14822178c7a841c03366ec92a1
+  webview_flutter_wkwebview: 2e2d318f21a5e036e2c3f26171342e95908bd60a
+
+PODFILE CHECKSUM: f930f1e75683513f710bc34923ec451cee4a652a
+
+COCOAPODS: 1.11.3
